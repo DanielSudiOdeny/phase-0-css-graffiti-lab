@@ -1,1 +1,25 @@
-/* write your override styles here */
+
+body div #wall {
+    background-color: transparent;
+} 
+
+body #wall .tag-1 {
+  display: none;
+  width: 100px;
+  height: 100px;
+
+}
+
+body div#wall #tag-2 {
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    opacity: 0.3;
+} 
+
+body div#wall #tag-4 {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    opacity: 0.3;
+}
